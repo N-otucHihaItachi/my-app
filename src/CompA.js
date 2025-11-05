@@ -31,6 +31,7 @@ function CompA() {
 function handleChange(event){
     setSomething(event.target.value);
     console.log(event.target.value);
+    console.log("changed");
 }
 }
 
